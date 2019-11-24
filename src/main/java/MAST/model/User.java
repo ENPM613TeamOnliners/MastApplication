@@ -27,6 +27,9 @@ public class User {
     @Column(name = "firstName")
     private String firstName;
     
+    @Column(name = "accountName")
+    private String accountName;
+    
     @Column(name = "lastName")
     private String lastName;
     
